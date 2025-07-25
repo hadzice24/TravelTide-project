@@ -138,7 +138,7 @@ Sample features created:
 
 ## 🧑‍🤝‍🧑 Customer Segments and Perks
 
-| Customer Segment      | Characteristics                                                      | Perk             |
+| Customer Segment      | Behavior Insights                                                    | Perk             |
 |-----------------------|----------------------------------------------------------------------|------------------|
 | **Family Traveler**       | Travelers with children; Check a high amount of bags                 | Free Checked Bag |
 | **Senior Traveler**       | Older than 60; Take long trips                                       | Free Hotel Meal  |
