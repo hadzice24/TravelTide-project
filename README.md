@@ -80,7 +80,8 @@ To focus on engaged users, only **active users** were included in the analysis.
    - Categories based on age, trip frequency, and family status
 
 4. **Perk Assignment**  
-   - Created visuals in Tableau to find traveler patterns
+   - Created visuals in Tableau to find traveler insights and patterns
+   - EDA in SQL to find insights
    - Matched reward to each group’s top travel need
 
 5. **Insights & Report**  
@@ -170,14 +171,14 @@ Sample features created:
 ## 📄 Reports and Presentation
 
 **Executive Summary**
-  - [View here]()
+  - [View here](Reports/summary_report.pdf)
     
 **Detailed Report**
-  - [Full project report]()
+  - [View Full project report](Reports/Detailed_Report.pdf)
     
 **Video Presentation**
 - A brief walkthrough of the project, insights, and outcomes is available here:
-  - [Slide deck]()
+  - [View Slide deck](Reports/TravelTide.pptx)
   - [Video Presentation](https://www.loom.com/share/4e0f17df651242c18a5e7f9f667d0a95?sid=5e2d2dea-708c-4762-85d8-3d3b006b8fc6)
 ---
 
