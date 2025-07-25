@@ -42,12 +42,12 @@ The dataset consisted of four original tables:
 From these, I created three working tables for the analysis:
 
 - **Session-based table**: Cleaned and filtered session-level data with relevant activity metrics.
-  - [Session-based table code]()
+  - [Session-based table code](https://www.notion.so/Session-based-Table-23b52541c165805799a7dd91f97e08b5?source=copy_link)
 - **User-based table**: Aggregated customer metrics such as age, number of trips, session counts, and family status.
   - [User-based table code](https://www.notion.so/User-based-Table-23b52541c1658016b9e3fb15b8c5e56e?source=copy_link)
 - **Final segmentation table**: Combined user attributes and behavior into defined customer groups and assigned a likely preferred perk.
   - [Final table code](https://www.notion.so/Final-Table-with-Customer-Groups-and-Assigned-Perk-23b52541c16580518459e3a61a5247b3?source=copy_link)
-  - [Final Cleaned Dataset]()
+    
 
 #### 🔍 Data Filtering
 To focus on engaged users, only **active users** were included in the analysis.
