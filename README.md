@@ -109,8 +109,8 @@ Sample features created:
 
 ## 🔍 Segmentation Approach
 
-- Decision Tree
-- Users were segmented using SQL `CASE WHEN` logic based on **age**, **trip frequency**, and **family status**:
+- Decision tree and using SQL `CASE WHEN` logic based on **age**, **trip frequency**, and **family status**.
+- Result: **7** groups
 
   ### 🧮 Segmentation Logic (SQL)
   
@@ -138,33 +138,15 @@ Sample features created:
 
 ## 🧑‍🤝‍🧑 Customer Segments and Perks
 
-**Family Travelers - Free Checked Bag**  
-- Travelers with Children
-- High Bag Usage
-
-**Senior Traveler - Free Hotel Meal**  
-- Travelers older than 60
-- Take Long Trips
-
-**Dreamers - Discount on First Travel**  
-- Fewer than 2 trips
-- High Cancellations
-
-**Young Frequent Traveler - 1 Free Hotel Night with Flight**  
-- Younger than 30  
-- More than 2 trips
-
-**Adult Frequent Traveler - Free Flight**  
-- Older than 30  
-- Between 2 and 5 trips
-- Highest Total Trips
-
-**Business Traveler - Airport Lounge Access**  
-- Older than 30  
-- More than 5 trips taken
-
-**Other Traveler - Free Seat Upgrade**  
-- Irregular and Ungrouped Users
+| Customer Segment      | Characteristics                                                      | Perk             |
+|-----------------------|----------------------------------------------------------------------|------------------|
+| **Family Traveler**       | Travelers with children; Check a high amount of bags                 | Free Checked Bag |
+| **Senior Traveler**       | Older than 60; Take long trips                                       | Free Hotel Meal  |
+| **Business Traveler**     | Older than 30; More than 5 trips                                     | Airport Lounge Access |
+| **Young Adult Frequent Traveler** | Younger than 30; More than 2 trips                           | 1 Free Hotel Night with Flight |
+| **Adult Frequent Traveler** | Older than 30; Between 2 and 5 trips; Highest total trips          | Free Flight      |
+| **Dreamer**               | Fewer than 2 trips; High cancellations                               | Discount on First Travel |
+| **Other Traveler**        | Irregular and ungrouped users                                        | Free Seat Upgrade|
 
 ---
 
