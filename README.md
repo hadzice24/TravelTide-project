@@ -27,7 +27,7 @@
 - SQL - for data cleaning and extraction
 - Tableau - for visualization and pattern recognition
 
---
+---
 
 ## 🗂️ Data Sources
  
@@ -44,9 +44,10 @@ From these, I created three working tables for the analysis:
 - **Session-based table**: Cleaned and filtered session-level data with relevant activity metrics.
   - [Session-based table code]()
 - **User-based table**: Aggregated customer metrics such as age, number of trips, session counts, and family status.
-  - [User-based table code]()
+  - [User-based table code](https://www.notion.so/User-based-Table-23b52541c1658016b9e3fb15b8c5e56e?source=copy_link)
 - **Final segmentation table**: Combined user attributes and behavior into defined customer groups and assigned a likely preferred perk.
-  - [Final table code]()
+  - [Final table code](https://www.notion.so/Final-Table-with-Customer-Groups-and-Assigned-Perk-23b52541c16580518459e3a61a5247b3?source=copy_link)
+  - [Final Cleaned Dataset]()
 
 #### 🔍 Data Filtering
 To focus on engaged users, only **active users** were included in the analysis.
@@ -63,23 +64,27 @@ To focus on engaged users, only **active users** were included in the analysis.
 
 ## 🗺️ Project Plan
 
-1. **Data Cleaning**  
+1. **Data Cleaning & Filtering**  
    - Removed duplicate sessions  
-   - Excluded users with 0 activity or revenue
+   - Cleaned hotel booking data (e.g. adjusted negative nights)
+   - Included sessions starting after January 4, 2023
+   - Filtered for users with more than 7 sessions to ensure engagement
 
 2. **User-Level Feature Engineering**  
-   - Aggregated sessions into customer profiles  
-   - Created new columns like `num_trips`, `booking_rate`, `travel_variety`
+   - Aggregated sessions into customer profiles
+   - Calculated metrics like `age`, `num_clicks`, `avg_session_duration`, `num_flights`, `money_spend_hotel`, `avg_km_flown`, and   `time_after_booking`
 
 3. **Customer Segmentation (SQL)**  
-   - Grouped users based on rules using `CASE WHEN` logic  
+   - Created a decision tree to group users
+   - Applied these rules using `CASE WHEN` logic  
    - Categories based on age, trip frequency, and family status
 
-4. **Perk Mapping**  
+4. **Perk Assignment**  
+   - Created visuals in Tableau to find traveler patterns
    - Matched reward to each group’s top travel need
 
 5. **Insights & Report**  
-   - Created visuals + summary for stakeholders  
+   - Created summaries and reports for stakeholders  
    - Offered marketing and product recommendations
      
 ---
@@ -94,7 +99,10 @@ Sample features created:
 | `num_trips`           | Number of trips taken (excluding cancellations).                     |
 | `age`                 | Derived from birthdate                                               |
 | `cust_group`          | Final segmentation label combining age, travel frequency, and family status.      |
-| `peak_time_user`      | Flag for users who book during peak hours   |
+| `customer_perk`       | Assigned perk most likely to appeal to each group.                   |
+| `avg_session_duration`| How long users spend on website. Behavioral insight                  |
+| `money_spend_hotel`   | Hotel expenses. Behavioral insight                                   |
+| `avg_km_flown`        | Avg. distance flown. Behavioral insight                              |
 
 ---
 
@@ -159,19 +167,18 @@ Sample features created:
 
 ---
 
-## 📊 Key Visualizations
+## 📄 Reports and Presentation
 
-> Replace the image links below with your actual visuals once uploaded to your repo or Tableau Public.
-
-![Elbow Curve](EDA/elbow_curve.png)  
-*Used to identify optimal number of clusters.*
-
-![Cluster Breakdown](EDA/cluster_breakdown.png)  
-*Visualizing customer segments by behavior.*
-
-![Perk Preferences](EDA/perk_assignment.png)  
-*Perk recommendation per segment.*
-
+**Executive Summary**
+  - [View here]()
+    
+**Detailed Report**
+  - [Full project report]()
+    
+**Video Presentation**
+- A brief walkthrough of the project, insights, and outcomes is available here:
+  - [Slide deck]()
+  - [Video Presentation](https://www.loom.com/share/4e0f17df651242c18a5e7f9f667d0a95?sid=5e2d2dea-708c-4762-85d8-3d3b006b8fc6)
 ---
 
 ## ✅ Recommendations
