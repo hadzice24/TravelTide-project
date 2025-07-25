@@ -148,12 +148,16 @@ Sample features created:
 | **Dreamer**               | Fewer than 2 trips; High cancellations                               | Discount on First Travel |
 | **Other Traveler**        | Irregular and ungrouped users                                        | Free Seat Upgrade|
 
+**Distribution of Customer Group**
+
+![Count Screenshot](Reports/group_count.png)
+
 ---
 
 ## 📄 Reports and Presentation
 
 **Executive Summary**
-  - [View here](Reports/summary_report.pdf)
+  - [View here](Reports/Summary_Report.pdf)
     
 **Detailed Report**
   - [View Full project report](Reports/Detailed_Report.pdf)
