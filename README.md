@@ -160,7 +160,7 @@ Sample features created:
     
 **Video Presentation**
 - A brief walkthrough of the project, insights, and outcomes is available here:
-  - [View Slide deck](Reports/TravelTide.pptx)
+  - [View Slide deck](Reports/TravelTide.pdf)
   - [Video Presentation](https://www.loom.com/share/4e0f17df651242c18a5e7f9f667d0a95?sid=5e2d2dea-708c-4762-85d8-3d3b006b8fc6)
 ---
 
